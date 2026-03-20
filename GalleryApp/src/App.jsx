@@ -42,6 +42,7 @@ printUserData
 
 <div className='flex justify-center items-center p-4 gap-4'>
 <button
+style= {{opacity:index == 1 ? 0.5 :1}}
  className='bg-amber-500 text-sm cursor-pointer active:scale-95 text-black rounded px-4 py-2'
  onClick={() => {
    if(index>1){
